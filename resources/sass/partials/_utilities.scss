@@ -1,0 +1,129 @@
+// LAYOUT
+
+// CONTAINERS
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+
+
+
+// FLEX PROPERIES
+
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.justify-spaceBetween{
+    justify-content: space-between;
+}
+
+.justify-spaceAround{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.both-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+
+
+
+// FONTS PROPERTIES 
+
+// FONTS SIZES
+.font-min{
+    font-size: $font-min;
+}
+.font-xxs{
+    font-size: $font-xxs;
+}
+.font-xs{
+    font-size: $font-xs;
+}
+.font-s{
+    font-size: $font-s;
+}
+.font-sm{
+    font-size: $font-sm;
+}
+.font-m{
+    font-size: $font-m;
+}
+.font-ml{
+    font-size: $font-ml;
+}
+.font-l{
+    font-size: $font-l;
+}
+.font-xl{
+    font-size: $font-xl;
+}
+.font-xxl{
+    font-size: $font-xxl;
+}
+
+//TEXT PROPERTIES
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+// TEXT COLORS
+
+.primary-text{
+    color: $primary;
+}
+
+.lightgray-text{
+    color: $lightgray;
+}
+.gray-text{
+    color: $gray;
+}
+
+.white-text{
+    color: $white;
+}

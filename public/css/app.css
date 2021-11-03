@@ -1,0 +1,319 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-spaceBetween {
+  justify-content: space-between;
+}
+
+.justify-spaceAround {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.both-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.font-min {
+  font-size: 12px;
+}
+
+.font-xxs {
+  font-size: 14px;
+}
+
+.font-xs {
+  font-size: 16px;
+}
+
+.font-s {
+  font-size: 18px;
+}
+
+.font-sm {
+  font-size: 24px;
+}
+
+.font-m {
+  font-size: 30px;
+}
+
+.font-ml {
+  font-size: 33px;
+}
+
+.font-l {
+  font-size: 38px;
+}
+
+.font-xl {
+  font-size: 47px;
+}
+
+.font-xxl {
+  font-size: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.primary-text {
+  color: #0082F9;
+}
+
+.lightgray-text {
+  color: #303030;
+}
+
+.gray-text {
+  color: #1C1C1C;
+}
+
+.white-text {
+  color: #ffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header .header-banner {
+  background-color: #0082F9;
+  padding: 3px 0;
+}
+header .header-banner .container > div {
+  margin: 0 20px;
+}
+header .header-container {
+  height: 80px;
+}
+header .header-container .logo {
+  height: 100%;
+}
+header .header-container .logo a {
+  height: 100%;
+  transition: all 0.3s;
+}
+header .header-container .logo a img {
+  height: 75%;
+}
+header .header-container .logo a:hover {
+  transform: scale(0.8);
+}
+header .header-container nav {
+  height: 100%;
+}
+header .header-container nav ul {
+  height: 100%;
+}
+header .header-container nav ul li {
+  min-width: 90px;
+  height: 100%;
+}
+header .header-container nav ul a, header .header-container nav ul a:visited {
+  color: black;
+  line-height: 76px;
+  border-bottom: 4px solid transparent;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+header .header-container nav ul a.active, header .header-container nav ul a:visited.active {
+  color: #0082F9;
+  border-color: #0082F9;
+}
+header .header-container nav ul a .dropdown, header .header-container nav ul a:visited .dropdown {
+  margin-left: 5px;
+  color: #0082F9;
+  font-size: 8px;
+  vertical-align: middle;
+}
+header .header-container nav ul li:last-child {
+  display: flex;
+  align-items: center;
+}
+header .header-container nav ul li:last-child input {
+  text-align: right;
+  border: none;
+  border-bottom: 2px solid #0082F9;
+}
+
+#footerTop {
+  background-image: url("../images/footer-bg.jpg");
+  height: 50vh;
+}
+#footerTop .container {
+  height: 100%;
+  padding: 40px 0;
+  background-image: url("../images/dc-logo-bg.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+#footerTop .container .links-container {
+  height: 100%;
+}
+#footerTop .container .links-container > li {
+  margin-right: 25px;
+}
+#footerTop .container .links-container > li > ul {
+  margin: 20px 0;
+}
+#footerTop .container .links-container > li a {
+  color: #aaaaaa;
+  line-height: 5px;
+}
+#footerTop .legals-container {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+#footerTop .legals-container a {
+  color: #0082F9;
+}
+
+#footerBottom {
+  background-color: #303030;
+}
+#footerBottom .container {
+  padding: 30px 0;
+}
+#footerBottom .container > a {
+  display: block;
+  padding: 10px;
+  border: 2px solid #0082F9;
+}
+#footerBottom .container .social-container > a {
+  color: #0082F9;
+  margin-right: 15px;
+}
+#footerBottom .container .social-container img {
+  margin: 0 7px;
+}
+
+.jumbo {
+  height: 50vh;
+}
+.jumbo img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.comics-container {
+  background-color: #1C1C1C;
+}
+.comics-container .container {
+  position: relative;
+  padding-top: 50px;
+}
+.comics-container .container .product-container {
+  width: 200px;
+  padding-bottom: 40px;
+}
+.comics-container .container .product-container .img-container {
+  height: 200px;
+  width: 100%;
+}
+.comics-container .container .product-container .img-container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.comics-container .container .product-container h2 {
+  margin-top: 20px;
+}
+.comics-container .container .title-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(0, -50%);
+  background-color: #0082F9;
+  padding: 10px 15px;
+  font-weight: 800;
+}
+.comics-container .container .button-container {
+  padding-bottom: 30px;
+}
+.comics-container .container .button-container a {
+  background-color: #0082F9;
+  padding: 10px 60px;
+  font-weight: 800;
+}
+
+.banner-container {
+  background-color: #0082F9;
+}
+.banner-container .container {
+  padding: 35px 0;
+}
+.banner-container .container li a img {
+  margin-right: 20px;
+}
+.banner-container .container li a img:not([alt="comic shop locator"]) {
+  width: 45px;
+}
+.banner-container .container li a img[alt="comic shop locator"] {
+  height: 48px;
+}

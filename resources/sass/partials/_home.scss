@@ -1,0 +1,84 @@
+.jumbo{
+    height: 50vh;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+.comics-container{
+    background-color: $gray;
+
+    .container{
+        position: relative;
+        padding-top: 50px;
+        
+        .product-container{
+            width: 200px;
+            padding-bottom: 40px;
+        
+            .img-container{
+                height: 200px;
+                width: 100%;
+        
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+            
+            h2{
+                margin-top: 20px;
+            }
+        }
+
+        .title-box{
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translate(0, -50%);
+            background-color: $primary;
+            padding: 10px 15px;
+            font-weight: 800;
+        }
+
+        .button-container{
+            padding-bottom: 30px;
+
+            a{
+                background-color: $primary;
+                padding: 10px 60px;
+                font-weight: 800;
+            }
+        }
+    }
+}
+
+.banner-container{
+    background-color: $primary;
+
+    .container{
+        padding: 35px 0;
+        
+        li{
+            a{
+                img{
+                    margin-right: 20px;
+                }
+
+                img:not([alt="comic shop locator"]){
+                    width: 45px;
+                }
+
+                img[alt="comic shop locator"]{
+                    height: 48px;
+                }
+            }
+        }
+    }
+}

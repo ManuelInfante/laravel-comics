@@ -1,0 +1,64 @@
+#footerTop{
+    background-image: url('../images/footer-bg.jpg');
+    height: 50vh;
+
+    .container{
+        height: 100%;
+        padding: 40px 0;
+        background-image: url('../images/dc-logo-bg.png');
+        background-position: right center;
+        background-repeat: no-repeat;
+
+        .links-container{
+            height: 100%;
+
+            & > li{
+                margin-right: 25px;
+
+                & > ul{
+                margin: 20px 0;
+                }
+
+                & a{
+                    color: rgb(170, 170, 170);
+                    line-height: 5px;
+                }
+            }
+        }
+    }
+
+    .legals-container{
+        color: rgb(170, 170, 170);
+        font-size: $font-xxs;
+
+        a{
+            color: $primary;
+        }
+    }
+}
+
+#footerBottom{
+    background-color: $lightgray;
+
+    .container{
+        padding: 30px 0;
+
+        & > a{
+            display: block;
+            padding: 10px;
+            border: 2px solid $primary;
+        }
+
+        & .social-container{
+
+            & > a{
+                color: $primary;
+                margin-right: 15px;
+            }
+
+            & img{
+                margin: 0 7px;
+            }
+        }
+    }
+}
